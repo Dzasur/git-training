@@ -1,0 +1,22 @@
+.menu{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+ul li {
+    cursor: pointer;
+    transition: all .2s;
+}
+li:hover, .active{
+    color: #118DA8;
+}
